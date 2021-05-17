@@ -1,0 +1,29 @@
+
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Página de login</title>
+</head>
+<body style="background-color: aqua;">
+{{>_errors}}
+        <div class="card card-body" style="margin: 20px auto; border-radius: 5px; background-color: #FFF; width: 300px;">
+            <h3 class="text-center" style="text-align: center; color: #777; padding: 10px;">Login</h3>
+            <form action="login" method="POST" style="padding: 2px 20px 10px 20px; text-align: center;">
+                <div class="form-group" style="margin-bottom: 10px;">
+                    <input type="text" class="form-control" name="nome" placeholder="Nome" style="border: 2px solid transparent; background-color: #ECF0F1; padding: 10px 0; text-align: center; font-size: 16px;" required>
+                </div>
+                <div class="form-group" style="margin-bottom: 10px;">
+                    <input type="password" class="form-control" name="senha" placeholder="Senha" style="border: 2px solid transparent; background-color: #ECF0F1; padding: 10px 0; text-align: center; font-size: 16px;" required>
+                </div>
+                <button class="btn btn-primary" type="submit" style="width: 100%; border: 2px solid transparent; padding: 10px 0; background-color: #3498DB; font-size: 16px; border-radius: 3px; color: #ffffff">Login</button>
+            </form>
+        </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="js/bootstrap.js"></script>
+</html>
+
+

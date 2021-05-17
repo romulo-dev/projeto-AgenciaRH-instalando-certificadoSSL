@@ -1,0 +1,31 @@
+{{!-- {{>_msg}} --}}
+{{>_navbar}}
+<div class="card">
+    <div class="card-body">
+        <form action="/CandidatoAdd" method="POST">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="NomeCliente">Nome do candidato</label>
+                    <input type="text" name="nome" class="form-control">
+                </div>
+                <div class="form-group col-md-6" >
+                    <label for="CPF">CPF</label>
+                    <input type="text" name="CPF" class="form-control">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6" >
+                    <label for="email">email</label>
+                    <input type="text" name="email" class="form-control">
+                </div>
+                <div class="form-group col-md-6">   
+                    <label for="Telefone">Número de telefone</label>
+                    <input type="text" name="telefone" class="form-control">
+                </div>
+            </div> 
+            <div align="right">
+                <button type="submit" class="btn btn-success mt-3 d-flex" >Salvar</button>
+            </div>        
+        </form>
+    </div>
+</div>

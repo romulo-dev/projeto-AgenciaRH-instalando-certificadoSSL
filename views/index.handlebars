@@ -1,0 +1,16 @@
+{{>_navbar}}
+{{>_errors}}
+{{>_msg}}
+{{#each candidatos}}
+    <div class="card mt-4 mr-2 ml-2">
+        <div class="card-body">
+            <h4>{{nome}}</h4>
+            <small>{{CPF}}</small>
+            <small>{{email}}</small>
+            <small>{{telefone}}</small>
+        </div>
+    </div>
+
+{{else}}
+
+{{/each}}
